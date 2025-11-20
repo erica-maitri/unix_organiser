@@ -8,6 +8,8 @@ fi
 
 TARGET_DIR="$1"
 
+
+
 if [ ! -d "$TARGET_DIR" ]; then
 	echo "Error: Directory '$TARGET_DIR' does not exist."
         exit 1
